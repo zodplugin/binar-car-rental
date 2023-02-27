@@ -1,0 +1,17 @@
+.navbar .btn-register {
+  background-color: #5CB85F;
+  color: #ffff;
+  border-radius: 0;
+}
+
+.navbar .btn-register:hover {
+  background-color: white;
+  color: #232323;
+}
+
+.btn-utama {
+  background-color: #5CB85F;
+  color: #ffff;
+  border-radius: 0;
+}
+/*# sourceMappingURL=style.css.map */
