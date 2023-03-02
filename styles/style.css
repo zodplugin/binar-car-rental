@@ -32,12 +32,8 @@
   gap: 16px;
 }
 
-.bagiancarousel {
-  margin: 100px;
-}
-
 .bagiancarousel .item {
-  width: 619px;
+  max-width: 619px;
 }
 
 .bagiancarousel .item .card {
@@ -55,15 +51,54 @@
   text-align: left;
 }
 
-@media (max-width: 900px) {
-  .owl-carousel .owl-item img {
-    width: auto !important;
+.sewa {
+  margin-top: 100px;
+}
+
+.sewa .container {
+  background-color: #0D28A6;
+  border-radius: 10px;
+}
+
+.sewa .container p {
+  line-height: 20px;
+  padding: 0 420px;
+  font-size: 14px;
+}
+
+.faq {
+  margin-top: 100px;
+}
+
+.faq .btn-faq {
+  border: #D4D4D4 solid 1px;
+  text-align: left;
+  border-radius: 5px;
+  width: 100%;
+}
+
+footer {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+  .owl-carousel .owl-stage-outer .owl-item img {
+    width: 80px !important;
   }
-  .card {
-    background-color: #F1F3FF;
+  .owl-carousel .owl-stage-outer .owl-item .card {
+    max-width: 350px;
   }
-  .card .card-body {
-    text-align: left;
+  .owl-carousel .owl-stage-outer .owl-item .card .card-body img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .sewa .container h1 {
+    padding: 0 70px;
+  }
+  .sewa .container p {
+    padding: 0 80px;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */

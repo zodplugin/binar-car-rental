@@ -1,65 +1,109 @@
-.navbar {
-    .btn-register {
+    .navbar {
+        .btn-register {
+            background-color: #5CB85F;
+            color: #ffff;
+            border-radius: 0;
+            &:hover {
+                background-color: white;
+                color: #232323;
+            }
+        }
+    }
+    
+    .btn-utama {
         background-color: #5CB85F;
         color: #ffff;
         border-radius: 0;
-        &:hover {
-            background-color: white;
-            color: #232323;
+    }
+    
+    .content {
+        margin-top: 100px;
+    }
+    
+    .why {
+        margin-top: 100px;
+        .card-why {
+            box-sizing: border-box;
+            border-radius: 6px;
+            border: 1px solid #D0D0D0;
+            padding: 18px;
+            gap: 16px;
         }
     }
-}
-
-.btn-utama {
-    background-color: #5CB85F;
-    color: #ffff;
-    border-radius: 0;
-}
-
-.content {
-    margin-top: 100px;
-}
-
-.why {
-    margin-top: 100px;
-    .card-why {
-        box-sizing: border-box;
-        border-radius: 6px;
-        border: 1px solid #D0D0D0;
-        padding: 18px;
-        gap: 16px;
-    }
-}
-
-.bagiancarousel {
-    margin: 100px;
-    .item {
-        width: 619px;
-        .card {
-            background-color: #F1F3FF;
-            .gambarorang {
-                width: 120px !important;
-                align-items: center;
-            }
-            .card-body {
-                text-align: left;
+    
+    .bagiancarousel {
+        .item {
+            max-width: 619px;
+            .card {
+                background-color: #F1F3FF;
+                .gambarorang {
+                    width: 120px !important;
+                    align-items: center;
+                }
+                .card-body {
+                    text-align: left;
+                }
             }
         }
     }
-}
-
-@media (max-width:900px) {
-    .owl-carousel {
-        .owl-item {
-            img {
-                width: auto !important;
+    
+    .sewa {
+        margin-top: 100px;
+        .container {
+            background-color: #0D28A6;
+            border-radius: 10px;
+            p {
+                line-height: 20px;
+                padding: 0 420px;
+                font-size: 14px;
             }
         }
     }
-    .card {
-        background-color: #F1F3FF;
-        .card-body {
+    
+    .faq {
+        margin-top: 100px;
+        .btn-faq {
+            border: #D4D4D4 solid 1px;
             text-align: left;
+            border-radius: 5px;
+            width: 100%;
         }
     }
-}
+    
+    footer {
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    
+    @media (max-width:1000px) {
+        .owl-carousel {
+            .owl-stage-outer {
+                // overflow: visible;
+                .owl-item {
+                    img {
+                        width: 80px !important;
+                    }
+                    .card {
+                        max-width: 350px;
+                        .card-body {
+                            img {
+                                margin-right: auto;
+                                margin-left: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sewa {
+            .container {
+                h1 {
+                    padding: 0 70px;
+                }
+                p {
+                    padding: 0 80px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
