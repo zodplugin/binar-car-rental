@@ -15,3 +15,51 @@
     color: #ffff;
     border-radius: 0;
 }
+
+.content {
+    margin-top: 100px;
+}
+
+.why {
+    margin-top: 100px;
+    .card-why {
+        box-sizing: border-box;
+        border-radius: 6px;
+        border: 1px solid #D0D0D0;
+        padding: 18px;
+        gap: 16px;
+    }
+}
+
+.bagiancarousel {
+    margin: 100px;
+    .item {
+        width: 619px;
+        .card {
+            background-color: #F1F3FF;
+            .gambarorang {
+                width: 120px !important;
+                align-items: center;
+            }
+            .card-body {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .owl-carousel {
+        .owl-item {
+            img {
+                width: auto !important;
+            }
+        }
+    }
+    .card {
+        background-color: #F1F3FF;
+        .card-body {
+            text-align: left;
+        }
+    }
+}

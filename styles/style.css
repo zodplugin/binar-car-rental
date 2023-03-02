@@ -14,4 +14,56 @@
   color: #ffff;
   border-radius: 0;
 }
+
+.content {
+  margin-top: 100px;
+}
+
+.why {
+  margin-top: 100px;
+}
+
+.why .card-why {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #D0D0D0;
+  padding: 18px;
+  gap: 16px;
+}
+
+.bagiancarousel {
+  margin: 100px;
+}
+
+.bagiancarousel .item {
+  width: 619px;
+}
+
+.bagiancarousel .item .card {
+  background-color: #F1F3FF;
+}
+
+.bagiancarousel .item .card .gambarorang {
+  width: 120px !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bagiancarousel .item .card .card-body {
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .owl-carousel .owl-item img {
+    width: auto !important;
+  }
+  .card {
+    background-color: #F1F3FF;
+  }
+  .card .card-body {
+    text-align: left;
+  }
+}
 /*# sourceMappingURL=style.css.map */
