@@ -70,11 +70,8 @@
   margin-top: 100px;
 }
 
-.faq .btn-faq {
-  border: #D4D4D4 solid 1px;
+.faq .title-faq {
   text-align: left;
-  border-radius: 5px;
-  width: 100%;
 }
 
 footer {
@@ -99,6 +96,16 @@ footer {
   .sewa .container p {
     padding: 0 80px;
     font-size: 15px;
+  }
+  .faq .title-faq {
+    text-align: center;
+  }
+  .faq .title-faq h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .faq .title-faq p {
+    margin: 30px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

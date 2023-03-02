@@ -62,11 +62,8 @@
     
     .faq {
         margin-top: 100px;
-        .btn-faq {
-            border: #D4D4D4 solid 1px;
+        .title-faq {
             text-align: left;
-            border-radius: 5px;
-            width: 100%;
         }
     }
     
@@ -103,6 +100,18 @@
                 p {
                     padding: 0 80px;
                     font-size: 15px;
+                }
+            }
+        }
+        .faq {
+            .title-faq {
+                text-align: center;
+                h2 {
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+                p {
+                    margin: 30px 0;
                 }
             }
         }
