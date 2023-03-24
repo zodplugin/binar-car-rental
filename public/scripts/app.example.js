@@ -40,6 +40,10 @@ class App {
             const penumpang = data.capacity >= this.jumlahPenumpang.value
             if (this.tipeDriver.value !== 'default' && this.tanggal.value !== '' && this.waktuJemput.value !== 'false' && this.jumlahPenumpang.value >= 0) {
                 return (availableAt || notAvailableAt) && checkWaktu && penumpang
+            } else if (this.tipeDriver.value !== 'default' && this.jumlahPenumpang.value > 0) {
+                return (availableAt || notAvailableAt) && penumpang
+            } else if (this.tanggal.value !== '' && this.waktuJemput.value !== 'false' && this.jumlahPenumpang.value > 0) {
+                return checkWaktu && penumpang
             } else if (this.tanggal.value !== '' && this.waktuJemput.value !== 'false') {
                 return checkWaktu
             } else if (this.tipeDriver.value !== 'default') {
